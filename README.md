@@ -12,7 +12,8 @@ CREATE TABLE `tasks` (
   `creationdate` datetime DEFAULT NULL,
   `vigent` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`idtask`)
-)```
+)
+```
 
 2- Modificar el archivo src/main/resources/applitation.propertie con la credenciales correspondientes
 3- Descargar repositorio e importarlo a algun IDE, ejemplo STS
@@ -20,3 +21,5 @@ CREATE TABLE `tasks` (
 
 DOCUMENTACIÓN API EN SWAGGER:
 http://localhost:8080/swagger-ui.html/
+
+El codigo del frontend se encuentra en el repositorio llamado mantenedor_tareas_front, el cual se puede desacargar y ejecutar en vs code
