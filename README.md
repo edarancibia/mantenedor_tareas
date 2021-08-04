@@ -3,7 +3,7 @@
 Instrucciones:
 1 - Para ejecutar en localhost o en algun ambiente Cloud se debe crear la base de datos y tabla con la siguiente instrucción:
 
-CREATE DATABASE mantenedor;
+```CREATE DATABASE mantenedor;
 use mantenedor;
 
 CREATE TABLE `tasks` (
@@ -12,7 +12,7 @@ CREATE TABLE `tasks` (
   `creationdate` datetime DEFAULT NULL,
   `vigent` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`idtask`)
-)
+)```
 
 2- Modificar el archivo src/main/resources/applitation.propertie con la credenciales correspondientes
 3- Descargar repositorio e importarlo a algun IDE, ejemplo STS
